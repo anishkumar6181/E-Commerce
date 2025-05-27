@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* Base styles */
+*{
+    font-family: Outfit;
+}
+
+/* Light mode (default) */
+.light {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --border-color: #e5e7eb;
+}
+
+/* Dark mode */
+.dark {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --border-color: #404040;
+}
+
+/* Theme transitions */
+.theme-transition {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Form elements */
+select,
+input,
+textarea {
+    @apply border rounded-md p-2;
+}
+
+.light select,
+.light input,
+.light textarea {
+    @apply bg-white border-gray-200 text-gray-900;
+}
+
+.dark select,
+.dark input,
+.dark textarea {
+    @apply bg-gray-800 border-gray-700 text-white;
+}
+
+/* Active states */
+.active {
+    @apply bg-blue-100 dark:bg-blue-900;
+}
+
+/* Buttons */
+.btn-primary {
+    @apply px-4 py-2 rounded-md transition-colors;
+}
+
+.light .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.dark .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+/* Cards and containers */
+.card {
+    @apply rounded-lg shadow-md p-4 transition-colors;
+}
+
+.light .card {
+    @apply bg-white;
+}
+
+.dark .card {
+    @apply bg-gray-800;
+}
