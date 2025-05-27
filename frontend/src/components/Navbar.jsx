@@ -8,6 +8,7 @@ const Navbar = () => {
     const[visible,setVisible]=useState(false);
     const {setShowSearch,getCartCount,navigate,token,setToken,setCartItems} =useContext(ShopContext)
     const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+    const admindUrl = import.meta.env.VITE_ADMIN_URL
 
     const logout = ()=>{
       navigate('/login')
@@ -37,6 +38,7 @@ const Navbar = () => {
                 <p>CONTACT</p>
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden' />
              </NavLink>
+             <a target="_blank" href={admindUrl} className="border px-5 text-xs py-1.5 rounded-full">Admin Panel</a>
 
         </ul>
         <div className='flex items-center gap-6'>
