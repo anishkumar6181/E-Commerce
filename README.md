@@ -13,22 +13,22 @@ Payments: Stripe API, Razorpay API,COD
 Deployment: Vercel (Frontend), Render/Atlas (Backend & DB)
 
 #  Features
- # 👥 User Side
-  Responsive UI (Mobile, Tablet, Desktop)
-  User authentication (Register, Login, JWT)
-  Browse & filter apparel products
-  Product variant selection (size)
-  Add to Cart / Wishlist
-      Checkout with:
-      Delivery address form
-  Payment method (Cash on Delivery, Stripe, Razorpay)
-  Order confirmation and history
+   # 👥 User Side
+     Responsive UI (Mobile, Tablet, Desktop)
+     User authentication (Register, Login, JWT)
+     Browse & filter apparel products
+     Product variant selection (size)
+    Add to Cart / Wishlist
+       Checkout with:
+       Delivery address form
+    Payment method (Cash on Delivery, Stripe, Razorpay)
+    Order confirmation and history
 
- # 🛠️ Admin Dashboard
-  Secure Admin login
-  View all products
-  Create, update, and delete products (CRUD)
-  Manage orders and user details
+  # 🛠️ Admin Dashboard
+     Secure Admin login
+     View all products
+     Create, update, and delete products (CRUD)
+     Manage orders and user details
 
 # Setup Backend (Node.js + MongoDB)
 cd backend
