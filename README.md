@@ -5,12 +5,12 @@ A full-featured eCommerce web application built using the MERN Stack (MongoDB, E
 Deployed on Vercel: https://e-commerce-frontend-gilt-beta.vercel.app/
 
 # 🧰 Tech Stack
-Frontend: React.js, Tailwind CSS, Axios, React Router DOM, Redux Toolkit
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose ODM)
-Authentication: JWT, Bcrypt
-Payments: Stripe API, Razorpay API,COD
-Deployment: Vercel (Frontend), Render/Atlas (Backend & DB)
+    Frontend: React.js, Tailwind CSS, Axios, React Router DOM, Redux Toolkit
+    Backend: Node.js, Express.js
+    Database: MongoDB (Mongoose ODM)
+    Authentication: JWT, Bcrypt
+    Payments: Stripe API, Razorpay API,COD
+    Deployment: Vercel (Frontend), Render/Atlas (Backend & DB)
 
 #  Features
    # 👥 User Side
@@ -31,19 +31,19 @@ Deployment: Vercel (Frontend), Render/Atlas (Backend & DB)
      Manage orders and user details
 
 # Setup Backend (Node.js + MongoDB)
-cd backend
-npm install
-npm run start
+    cd backend
+    npm install
+    npm run start
 
 # Setup Frontend(React)
-cd frontend
-npm install
-npm run dev
+    cd frontend
+    npm install
+    npm run dev
 
 # Setup Admin
-cd Admin 
-npm install
-npm run dev
+    cd Admin 
+    npm install
+   npm run dev
 
 # Deployment
 Frontend: Deployed on Vercel
